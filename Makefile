@@ -48,7 +48,7 @@ USING_CURL = 0
 USING_LIBPNG = 1
 
 TARGET    = HatchGameEngine
-TARGETDIR = builds/$(OUT_FOLDER)/$(TARGET)
+TARGETDIR = ./builds/$(OUT_FOLDER)/$(TARGET)
 OBJS      = main.o
 
 SRC_C   = $(call rwc, source/, *.c)
